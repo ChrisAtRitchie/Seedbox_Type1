@@ -1,6 +1,7 @@
 # Seedbox_Type1
 
 Revision: 0.0 (alpha one)
+
 Date: 08/10/2020
 
 Seedbox type 1, is a docker compose context, that will spin up a number of containers that together function as a seedbox.
@@ -21,9 +22,10 @@ It includes the following containers
   - radarr
   - lidarr
   - bazarr
-  
+
 The access port mappings are assigned dynamically based on the .env file, but the following container ports are available
   - Port 22, for SSH CLI access, and SFTP file transfer access.
   - Ports 989 and 990, for FTPS file transfer access.
   - Port 5900, for VNC remote access to the firefox browser.
+
 The port (TCP/UDP) mapping for incoming connections to Deluge, are assigned the same number dynamically for both host and container, in the range of 58000 to 58999.
