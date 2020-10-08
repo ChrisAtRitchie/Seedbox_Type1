@@ -7,8 +7,8 @@ Date: 08/10/2020
 Seedbox type 1, is a docker compose context, that will spin up a number of containers that together function as a seedbox.
 
 it contains the necessary files to be executable with only two operations after downloading this repository
-  1: Update the .env file to replace the necessary variables
-  2: execute the command 'docker compose up'
+- Update the .env file to replace the necessary variables
+- execute the command 'docker compose up'
 
 It includes the following containers
 
